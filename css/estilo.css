@@ -36,6 +36,8 @@ body{
 #content{
 	margin: 20px;
 	width: auto;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
 }
 #fotos{
     display: grid;
@@ -51,6 +53,18 @@ body{
     padding: 20px 20px;
     border-color: #EEE5E9;
     margin: 20px;
+	font-size: 25px;
+}
+#pagefoto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: #92DCE5;
+    border-radius: 25px;
+    padding: 20px 20px;
+    border-color: #EEE5E9;
+    margin: 20px;
+	font-size: 25px;
 }
 .foto:hover{
 	background-color: #383D3B;
